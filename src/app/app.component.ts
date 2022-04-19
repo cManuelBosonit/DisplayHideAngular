@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'DisplayHide';
+  title: string = 'DisplayHide';
+  display: Boolean = true;
+
+  displayHide(){
+    this.display= !this.display;
+  }
 }
