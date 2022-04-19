@@ -7,3 +7,19 @@
 h5{
     font-weight: bolder;
 }
+
+.seOculta{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(240, 240, 34);
+    border: 3px solid orange;
+    border-radius: 10px;
+    font-size: 10vw;
+    padding-left:3rem;
+    margin: 2rem;
+}
+
+.seOculta img {
+    width: 30%;
+}

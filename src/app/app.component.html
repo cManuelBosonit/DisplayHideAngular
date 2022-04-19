@@ -6,4 +6,9 @@
         (click)="displayHide()">{{display ? "Hide" : "Display"}}
         
 </button>
-<h1 *ngIf="display">Hiden tag</h1>
+<div 
+    class="seOculta"
+    *ngIf="display">
+  <p>Hello World!</p>
+  <img src="../assets/earth.png">
+</div>
